@@ -2,7 +2,7 @@ package classMethodCalling;
 
 public class Division {
 	public void division(int s1,int s2,int s3,int s4,int s5) {
-		double ave = (s1+s2+s3+s4+s5)/5;
+		double ave = (s1+s2+s3+s4+s5)/5; // s-subject ave-average
 		if (ave >= 60) {
 			System.out.println("First division");
 		}

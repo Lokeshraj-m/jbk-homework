@@ -6,7 +6,7 @@ public class CompoundInterest {
 		R = R/100;
 		double C = 1+(R/n);
 		double ci = (P*Math.pow(C,(n*T)))-P;
-				
+		// ci-compound interest		
 		System.out.println("Compound Interest = " +ci);
 	}
 }
